@@ -1,0 +1,9 @@
+package com.empresa.repositorio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.empresa.model.Produto;
+
+public interface ProdutoRepositorio extends JpaRepository<Produto, Long>{
+
+}
